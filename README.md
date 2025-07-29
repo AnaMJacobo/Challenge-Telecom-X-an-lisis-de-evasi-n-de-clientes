@@ -25,8 +25,9 @@ Contiene información sobre:
 
 
 ## ⚙️ Requisitos
-
-Este proyecto está desarrollado en **Python** y requiere las siguientes bibliotecas:
-
-```bash
-pip install pandas requests matplotlib seaborn ipython
+Este proyecto está diseñado para ser ejecutado en un entorno de cuaderno interactivo como **Google Colab** o **Jupyter Notebook**.Necesitarás tener instalado las siguientes librerías:
+*   `pandas`: Para manipulación y análisis de datos.
+*   `requests`: Para descargar el archivo JSON desde la URL.
+*   `matplotlib`: Para crear visualizaciones estáticas.
+*   `seaborn`: Para crear visualizaciones estadísticas más atractivas.
+*   `IPython`: Específicamente para la función `display` si utilizas un entorno interactivo como Colab o Jupyter Notebooks.
